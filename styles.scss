@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+
+body {
+  font-family: Tahoma;
+  background-color: #DFDFDF;
+}
+
+.container{
+
+}
+
+.white-box {
+  background-color: #FBFBFB;
+  border: none;
+  box-shadow: 0 3px 6px gray;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+.list {
+  margin-top: 7px;
+  padding-left: 0px;
+}
+
+.list ul {
+  list-style: none;
+  width: 80%;
+}
+
+.list li {
+  padding: 10px 10px;
+  height: 20px;
+  font-size: 0.8rem;
+
+}
+
+.list li:hover {
+  background-color: #f8f8f8;
+  cursor: pointer;
+}
+
+.space-between {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  margin-top: 7px;
+  margin-bottom: 40px;
+}
+
+.form input {
+  background-color: transparent;
+  font-size: 0.9rem;
+  width:100%;
+  padding: 15px 15px;
+}
+.checkbox{
+  display: flex;
+  align-items: center;
+}
+
+.checkbox input {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.btn-align {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-delete {
+  width: 20px;
+  height: 20px;
+}
+
+.bold {
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+.filter {
+  margin-right: 10px;
+}
+
+.cursor {
+  cursor: pointer;
+}
+@media only screen and (min-width: 900px) {
+  .container{
+    margin: 100px auto;
+    width: 800px;
+
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .container{
+    margin: 45px auto;
+    width: 90%;
+  }
+}
