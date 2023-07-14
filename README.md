@@ -1,18 +1,23 @@
-# Todo app
+# Todo app solution
 
-![Design preview for the Todo app coding challenge](./design/desktop-preview.png)
+## Table of contents
 
-## Welcome! 👋
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Difficulcites](#difficulites)
+  - [What I learned](#what-i-learned)
 
-**To do this challenge, you need a good understanding of HTML, CSS and JavaScript.**
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-## The challenge
+## Overview
 
-Your challenge is to build out this todo app and get it looking as close to the design as possible.
-If possible, avoid using any CSS Frameworks such as Bootstrap/tailwind or JS component libraries such as MaterialUI/ChakraUI.
-It is highly appreciated if you try to use the already configured SCSS compiler and try to write your own style ruleset.
+### The challenge
 
-Your users should be able to:
+Users should be able to:
 
 - View the optimal layout for the app depending on their device's screen size
 - See hover states for all interactive elements on the page
@@ -21,38 +26,44 @@ Your users should be able to:
 - Delete todos from the list
 - Filter by all/active/complete todos
 - Clear all completed todos
-- Toggle light and dark mode
-- **Bonus**: The todos data should be stored through refreshes.
-- **Bonus**: Drag and drop to reorder items on the list
+
+**Note: Fill with the functionalities you managed to implement while doing the challenge.**
+
+### Screenshot
+
+![](./design/screenshot.png)
 
 
-## Where to find everything
+## My process
+- Startet by analising components from screenshot,
+- after identifying some, created one by one, started with Form
+Form
+- inside Form component introduced a textbox
+- created a new const for object with a state from inputbox
+- tested object format with console.log
+- after got all right information, stored object inside an array
+TaskList
+- created a TaskList component to display array of tasks
+- added checkbox, and changed the text type of task when toggled
+- displayed number of tasks left to be done
+- added a filter all/complete/active
+- added clear all completed tasks button
 
-Your task is to build out the project to the designs inside the `/design` folder. The app must be responsive. 
+- implemented style changes to match requirements, and tried to do responsive layout
 
-The design is in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+**Note: Quick summary of your tought process while doing the challenge. No big deal.**
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+### Built with
 
-This repo is already pre-configured with the default vite react-ts template.
-[React official docs](https://react.dev/)
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- [React](https://reactjs.org/) - JS library
 
-## Building your project
+### Difficulties
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
-
-1. Clone the repository using git clone https://github.com/Logrise/FrontEnd-TodoExercise.git
-2. Make the necessary changes to the code.
-3. Commit the changes using git commit -m "<commit-message>".
-4. Push the changes to the remote repository using git push.
-5. Share the repository URL with the evaluator for code evaluation.
-
-## Create a custom `README.md`
-
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
-
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
-
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
-
-**Have fun building!** 🚀
+ - struggled with costumising checkbox
+ - light/dark mode toggle
+ - difficulty in applying drag and drop button
+ most of the difficulties is due to lack of time
